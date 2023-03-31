@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Sign up</title>
+</head>
+
+
+<body>
+    <form action="">
+        <h1>Sign Up</h1>
+        <fieldset>
+            <legend>Your basic information</legend>
+            <label for="firstname">First name:</label>
+            <input class="textInput" type="text" id="firstname" name="firstName" />
+            <label for="lastname">Last name:</label>
+            <input class="textInput" type="text" id="lastname" name="lastName" />
+            <label for="email">Email:</label>
+            <input class="textInput" type="email" id="email" name="email" />
+            <label for="username">Username:</label>
+            <input class="textInput" type="text" id="username" name="username" />
+            <label for="password">Password:</label>
+            <input class="textInput" type="password" id="password" name="password">
+        </fieldset>
+        <br />
+
+        <fieldset>
+            <legend>Other details</legend>
+            <label for="birthday">Birth Date:</label>
+            <input class="textInput" type="date" id="birthday" name="birthday" />
+            <label for="gender">Gender:</label>
+            <br />
+            <input type="radio" id="gender" name="gender" value="Male" />
+            <label for="male" class="light">Male</label>
+            <br />
+            <input type="radio" id="gender" name="gender" value="Female" />
+            <label for="female" class="light">Female</label>
+            <br />
+            <input type="radio" id="gender" name="gender" value="other" />
+            <label for="other" class="light">Other</label>
+        </fieldset>
+        <br />
+
+        <fieldset>
+            <label for="country">Country</label>
+            <br />
+            <select name="country" id="country">
+                <option value="China">China</option>
+                <option value="China">Australia</option>
+                <option value="China">Japan</option>
+                <option value="China" selected>US</option>
+            </select>
+
+        </fieldset>
+        <br />
+
+        <fieldset>
+            <div>
+                <input type="checkbox" name="accept" value="accept" required />
+                <label for="accept">I'm accepting Teams and Conditions</label>
+                <br />
+                <button type="submit" name="butButton">Sign Up</button>
+            </div>
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>
